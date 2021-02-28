@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+    </style>
+    <h1>scraped data </h1>
+    <table style="width:50%">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Number</th>
+    </tr>
+    {% for i in range(0,Length) %}
+        <tr>
+            <td>{{ name[i] }}</td>
+            <td>{{ address[i] }}</td>
+            <td>{{ number[i] }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</html>
