@@ -1,4 +1,3 @@
-
 #this code inports the libraries neaded for the software
 import requests
 from bs4 import BeautifulSoup
@@ -10,7 +9,6 @@ leadnumber = []
 leadaddress = []
 # this code scrapes the web page
 def scape(cat):
-    max
     pagenumber = 0
       
     pagehtml = requests.get("https://www.nzdirectory.co.nz/" + cat + ".html")
