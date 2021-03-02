@@ -11,12 +11,14 @@
         <th>Name</th>
         <th>Address</th>
         <th>Number</th>
+        <th>lead urls</th>
     </tr>
     {% for i in range(0,Length) %}
         <tr>
             <td>{{ name[i] }}</td>
             <td>{{ address[i] }}</td>
             <td>{{ number[i] }}</td>
+            <td>{{ URL[i] }}</td>
         </tr>
     {% endfor %}
     </table>
