@@ -3,12 +3,11 @@ from flask import Flask, render_template
 import Web_scraper
 main = Flask(__name__)
 
-#cd C:\Users\mattk\Documents\Techtorium\year 2\python\weak3\W3T1Project_Car_Scout\E\Scripts
+#cd \W3T1Project_Car_Scout\E\Scripts
 #activate
 #set FLASK_APP=main.py
 #flask run 
 
-print(Web_scraper.scape("health-fitness"))
 
 @main.route('/')
 def index():
